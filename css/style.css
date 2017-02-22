@@ -10,17 +10,38 @@ div.col-xs-12 {
 
 img {
     width: 100%;
-
 }
 
 h1 {
     margin: 0;
 }
 
+.menubar {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
 i {
-    color: black;
+    color: white;
+    font-weight: normal;
+}
+
+#search {
+    background-color: green;
 }
 
 header {
+    background-color: black;
     display: flex;
+}
+
+h1{
+    color: white
+}
+
+article {
+    background-color: black;
+    color: white;
 }
