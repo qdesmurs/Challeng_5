@@ -4,13 +4,48 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-img {
+header {
+    display: flex;
+    align-items: baseline;
+}
+
+nav {
     width: 100%;
+}
+
+.navbar-header {
+    align-items: baseline;
+}
+
+.h1 {
+    color: white;
+    font-size: 30px;
+}
+
+a {
+    color: white;
+}
+
+li:hover {
+    background-color: #009618;
+}
+
+span {
+    background-color: white;
+}
+
+img {
+
+}
+
+#imgvid {
+    /*height: 574px;*/
 }
 
 h1 {
     margin: 0;
-    color: white
+    color: white;
+    margin-left: 0.5em;
 }
 
 h2 {
@@ -29,21 +64,38 @@ h3 {
     text-transform: uppercase;
 }
 
-.menubar {
-    width: 40%;
+div.menubar {
+    width: 50%;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
 }
 
 i {
     color: white;
     font-weight: normal;
+    padding: 0.5em;
+}
+
+main, h5, #p3 {
+    padding: 0.5em;
+}
+
+h4 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 7em;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 #sectionvid {
     padding: 0.5em;
     padding-bottom: 2em;
+    margin-top: 4em;
 }
 
 #p {
@@ -73,7 +125,7 @@ i {
 }
 
 #search {
-    background-color: green;
+    background-color: #009618;
 }
 
 header {
@@ -82,6 +134,58 @@ header {
 }
 
 article {
+    width: 100%;
     background-color: black;
     color: white;
+}
+
+ul {
+    background-color: black;
+    padding: 0.5em;
+    margin: 0;
+}
+
+li.selected {
+    background-color: #009618;
+}
+
+aside li {
+    color: white;
+    font-weight: bolder;
+    list-style: none;
+    text-transform: uppercase;
+    border-top: solid 1px rgb(59, 59, 59);
+    padding: 0.5em 0;
+
+}
+
+aside li:last-child {
+    border-bottom: solid 1px rgb(59, 59, 59);
+}
+
+#search2 {
+    align-items: center;
+    background-color: black;
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+}
+
+#search2 input {
+    width: 98%;
+    border-radius: 3px;
+    background-color: rgb(83, 83, 83);
+    color: grey;
+    border: none;
+    padding: 0.2em;
+}
+
+#p2 {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 1.5em 0;
+    padding-left: 0.5em;
 }
