@@ -5,8 +5,36 @@ body {
 }
 
 header {
+    background-color: black;
     display: flex;
-    align-items: baseline;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    border-bottom: 1px solid grey;
+}
+
+.nav > li > a:hover {
+    background-color: #009618;
+    color: white;
+}
+
+#myNavbar {
+    margin: 0;
+    width: 98%;
+}
+
+.navbar-nav {
+    margin: 0px -15px;
 }
 
 nav {
@@ -15,6 +43,8 @@ nav {
 
 .navbar-header {
     align-items: baseline;
+    padding: 0.5em 0;
+    height: 3.9em;
 }
 
 .h1 {
@@ -24,10 +54,6 @@ nav {
 
 a {
     color: white;
-}
-
-li:hover {
-    background-color: #009618;
 }
 
 span {
@@ -45,7 +71,9 @@ img {
 h1 {
     margin: 0;
     color: white;
-    margin-left: 0.5em;
+    margin-left: 0.3em;
+    font-size: 30px;
+    padd
 }
 
 h2 {
@@ -188,4 +216,41 @@ aside li:last-child {
     text-transform: uppercase;
     padding: 1.5em 0;
     padding-left: 0.5em;
+}
+
+.pbas, h6 {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding-left: 0.5em;
+    padding-bottom: 2em;
+}
+
+h6 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 1em 0.5em;
+}
+
+.col-sm-6 {
+    padding: 0;
+}
+
+.col-sm-4 {
+    padding: 0;
+}
+
+.col-sm-8 {
+    padding: 0;
+}
+
+.col-sm-12 {
+    padding: 0;
 }
